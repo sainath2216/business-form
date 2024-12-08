@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+}
+
+/*general */
+
+.general-heading{
+  color: rgb(207, 6, 207);
+  font-size: 22px;
+}
+
+.radio-color{
+  color:rgb(207, 6, 207) ;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.form-container{
+  background-color: rgb(232, 231, 229);
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 1100px;
+  
+  
+}
+
+/* main title */
+
+.main-heading{
+  color: #6f0dd8;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ 
+}
+.main-span{
+  text-decoration: underline;
+}
+
+
+.bank-details-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction-heading{
+  font-size: 20px;
+  color: #323131;
+}
+.note-heading{
+  color: #000;
+  font-weight: bold;
+}
+.stepper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #6204af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+
+.step-name {
+  font-size: 10px;
+
+  color: #6f0dd8;
+  font-weight: bold;
+
+}
+
+.active .step-number {
+  background-color: #400583;
+  color: #fff;
+}
+
+.complete .step-number {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.progress-bar {
+  position: absolute;
+  width: 90%;
+  top: 25%;
+  left: 0;
+  height: 4px;
+  background-color: rgb(195, 155, 221);
+}
+
+.progress {
+  height: 90%;
+  background-color: #4c2b7b;
+  transition: 0.2s ease;
+}
+
+.btn-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  border-radius: 30px;
+  padding: 0.6em 1.2em;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  background-color: #39c94e;
+  cursor: pointer;
+  border: none;
+  margin: 6px;
+  width: 170px;
+  height: 60px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(192, 192, 30, 0.2);
+  
+}
